@@ -43,6 +43,7 @@ async function runTest(page, testInfo, input, expectedOutput) {
   }
 }
 
+//positive test cases
 test('Pos_Fun_0001: Personal feeling statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'enakku indaikku padikka poka viruppam illa.', 'எனக்கு இண்டைக்கு படிக்க போக விருப்பம் இல்ல.');
 });
@@ -139,7 +140,8 @@ test('Pos_Fun_0024: Understanding', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'nanban illaatha vaalkai odaatha maadduvandil pola munne pokaathu', 'நண்பன் இல்லாத வாழ்க்கை ஓடாத மாட்டுவண்டில் போல முன்னே போகாது');
 });
 
-test('Neg_Fun_0025: Decision Statement', async ({ page }, testInfo) => {
+// negative test cases
+test('Neg_Fun_00001: Decision Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'naan indaikku school pokella', 'நான் இண்டைக்கு school போகேல்ல');
 });
 
