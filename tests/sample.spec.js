@@ -141,42 +141,42 @@ test('Pos_Fun_0024: Understanding', async ({ page }, testInfo) => {
 });
 
 // negative test cases
-test('Neg_Fun_00001: Decision Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0001: Decision Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'naan indaikku school pokella', 'நான் இண்டைக்கு school போகேல்ல');
 });
 
-test('Neg_Fun_0026: Schedule update statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0002: Schedule update statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'naan naalaikku vara konjam late aakum', 'நான் நாளைக்கு வர கொஞ்சம் late ஆகும்');
 });
 
-test('Neg_Fun_0027: Narrative Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0003: Narrative Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'naan campus kku pokekka oru thaaththaava kanden', 'நான் campus க்கு போகேக்க ஒரு தாத்தாவை கண்டேன்');
 });
 
-test('Neg_Fun_0028: Fearful Experience Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0004: Fearful Experience Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'naan morning elumbi bathroom pkekka oru naai ondu velila nindichchu naan payanthu ponen', 'நான் morning எழும்பி bathroom போகேக்க ஒரு நாய் ஒண்டு வெளில நிண்டிச்சு நான் பயந்து போனேன்');
 });
 
-test('Neg_Fun_0029: Metaphorical Expression', async ({ page }, testInfo) => {
+test('Neg_Fun_0005: Metaphorical Expression', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'aval sirippu notification sound pola kedathum manasu happy mood', 'அவள் சிரிப்பு notification sound போல கேட்டதும் மனசு happy mood');
 });
 
-test('Neg_Fun_0030: Social Commentary', async ({ page }, testInfo) => {
+test('Neg_Fun_0006: Social Commentary', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'sombal pidichchavan update aakaatha app pola ethukkum velai seiyaathu', 'சோம்பல் பிடிச்சவன் update ஆகாத app போல எதுக்கும் வேலை செய்யாது');
 });
 
-test('Neg_Fun_0031: Positive Review Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0007: Positive Review Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'naan indaikku saappitta saappaadu rompa 😋 nallaa irunthichchu', 'நான் இண்டைக்கு சாப்பிட்ட சாப்பாடு ரொம்ப 😋 நல்லா இருந்திச்சு');
 });
 
-test('Neg_Fun_0032: Shedule Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0008: Shedule Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'iravu 11pm kku naan bus eara poran naalaikku morning mannaar la nikkanum', 'இரவு 11pm க்கு நான் bus ஏற போறன் நாளைக்கு morning மன்னார் ல நிக்கணும்');
 });
 
-test('Neg_Fun_0033: Past Action Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0009: Past Action Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'enakku night sariyaana kaachchal naan seekkirame paduththittan', 'எனக்கு night சரியான காச்சல் நான் சீக்கிரமே படுத்திட்டேன்');
 });
 
-test('Neg_Fun_0034: Incident Statement', async ({ page }, testInfo) => {
+test('Neg_Fun_0010: Incident Statement', async ({ page }, testInfo) => {
   await runTest(page, testInfo, 'orunaal naan driving la irukkekka oru accident nadanthittu vehicle ellaam accident aakiddu', 'ஒருநாள் நான் driving ல இருக்கேக்க ஒரு accident ஒண்டு நடந்திட்டு வெஹிகிள் எல்லாம் damage ஆகிட்டு');
 });
