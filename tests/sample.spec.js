@@ -44,16 +44,16 @@ async function runTest(page, testInfo, input, expectedOutput) {
 }
 
 //positive test cases
-test('Pos_Fun_0001: Personal feeling statement', async ({ page }, testInfo) => {
-  await runTest(page, testInfo, 'enakku indaikku padikka poka viruppam illa.', 'எனக்கு இண்டைக்கு படிக்க போக விருப்பம் இல்ல.');
+test('Pos_Fun_0001: Daily language usage', async ({ page }, testInfo) => {
+  await runTest(page, testInfo, 'naan kovilukku pogiren', 'நான் கோவிலுக்கு போகிறேன்');
 });
 
 test('Pos_Fun_0002: Interpersonal conflict', async ({ page }, testInfo) => {
-  await runTest(page, testInfo, 'Enakkum amma kkum indaikku sariyaana sandai. naan ippa avaavoda kathaikrathu illa. naalaikku avaavoda kathaippam.naan kathaikkaaddil avaa kastappaduvaa.','எனக்கும் அம்மா க்கும் இண்டைக்கு சரியான சண்டை. நான் இப்ப அவாவோட கதைக்கிறது இல்ல. நாளைக்கு அவாவோட கதைப்பம்.நான் கதைக்காட்டில் அவா கஷ்டப்படுவா.');
+  await runTest(page, testInfo, 'naan pogiren aanaal neramaagum','நான் போகிறேன் ஆனால் நேரமாகும்');
 });
 
-test('Pos_Fun_0003: Poetic Expression', async ({ page }, testInfo) => {
-  await runTest(page, testInfo, 'mulumathi avalathu mugamaakum mallikai avalathu manamaakum','முழுமதி அவளது முகமாகும் மல்லிகை அவளது மணமாகும்');
+test('Pos_Fun_0003: Daily language usage', async ({ page }, testInfo) => {
+  await runTest(page, testInfo, 'ithu sariyaaga velai seigiratha?','இது சரியாக வேலை செய்கிறதா?');
 });
 
 test('Pos_Fun_0004: Commitment', async ({ page }, testInfo) => {
@@ -85,11 +85,11 @@ test('Pos_Fun_0010: Refusal', async ({ page }, testInfo) => {
 });
 
 test('Pos_Fun_0011: Poetic Expression', async ({ page }, testInfo) => {
-  await runTest(page, testInfo, 'naan pogiren mele mele, boologame kaalin keele vinmeengalin koottam enmele. ean unnai paarththen endre ullam kelvi keadkum. aanaalum nenjam antha neraththai nesikkum.', 'நான் போகிறேன் மேலே மேலே, பூலோகமே காலின் கீழே விண்மீன்களின் கூட்டம் என்மேலே. ஏன் உன்னை பார்த்தேன் என்றே உள்ளம் கேள்வி கேட்க்கும். ஆனாலும் நெஞ்சம் அந்த நேரத்தை நேசிக்கும்.');
+  await runTest(page, testInfo, 'naan pogiren mele_mele_boologame kaalin keele vinmeengalin koottam enmele. ean unnai paarththen endre ullam kelvi keadkum. aanaalum nenjam antha neraththai nesikkum.', 'நான் போகிறேன் மேலே_மேலே_பூலோகமே காலின் கீழே விண்மீன்களின் கூட்டம் என்மேலே. ஏன் உன்னை பார்த்தேன் என்றே உள்ளம் கேள்வி கேட்க்கும். ஆனாலும் நெஞ்சம் அந்த நேரத்தை நேசிக்கும்.');
 });
 
 test('Pos_Fun_0012: Philosophical Thought', async ({ page }, testInfo) => {
-  await runTest(page, testInfo, 'vaalkai endaal ippidi thaan', 'வாழ்க்கை எண்டால் இப்பிடி தான்');
+  await runTest(page, testInfo, 'vaalkai  endaal ippidi thaan', 'வாழ்க்கை  எண்டால் இப்பிடி தான்');
 });
 
 test('Pos_Fun_0013: Self-Observation', async ({ page }, testInfo) => {
@@ -101,7 +101,7 @@ test('Pos_Fun_0014: Reciprocal', async ({ page }, testInfo) => {
 });
 
 test('Pos_Fun_0015: Philosophical Question', async ({ page }, testInfo) => {
-  await runTest(page, testInfo, 'kalyaanam thaan kaddikkiddu oodi polaama illa oodi pooyi kalyaanam thaan kaddikkalaamaa', 'கல்யாணம் தான் கட்டிக்கிட்டு ஓடி போலாமா இல்ல ஓடி போயி கல்யாணம் தான் கட்டிக்கலாமா');
+  await runTest(page, testInfo, 'kalyaanam thaan kaddikkiddu oodi polaama illa oodi pooyi kalyaanam thaan kaddikkalaamaa?', 'கல்யாணம் தான் கட்டிக்கிட்டு ஓடி போலாமா இல்ல ஓடி போயி கல்யாணம் தான் கட்டிக்கலாமா?');
 });
 
 test('Pos_Fun_0016: Interpersonal Incident', async ({ page }, testInfo) => {

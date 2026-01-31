@@ -8,7 +8,7 @@ module.exports = defineConfig({
   retries: 1,
 
  use: {
-  headless: false,   
+  headless: true,   
   viewport: { width: 1280, height: 720 },
   actionTimeout: 30 * 1000,
 },
